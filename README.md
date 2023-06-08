@@ -6,6 +6,7 @@ The first thing I had to do was to log onto AWS and create IAM user and then cre
 I utilized Visual Code as a text editor and downloaded AWS and then added the key that was created by going to view => command pallet => AWS Create Credentials Profile. Doing this allow me to connect to AWS without adding my credential in my code and keeping it secure. 
 
 In terraform use:
+
 provider "aws" {
   region = "us-east-1"
   shared_credentials_files = ["~/.aws/credentials"]
