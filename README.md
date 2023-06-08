@@ -8,8 +8,11 @@ I utilized Visual Code as a text editor and downloaded AWS and then added the ke
 In terraform use:
 
 provider "aws" {
+
   region = "us-east-1"
+  
   shared_credentials_files = ["~/.aws/credentials"]
+  
   profile                  = "profilename"
   
  where "profilename" is the IAM user that was previously created". Now you are ready to code.
