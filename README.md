@@ -11,6 +11,7 @@ provider "aws" {
   region = "us-east-1"
   shared_credentials_files = ["~/.aws/credentials"]
   profile                  = "profilename"
+  
  where "profilename" is the IAM user that was previously created". Now you are ready to code.
 
 The ran into problems with deploying the code to AWS. The resources that I created were not showing when I went on Amazon AWS. I checked my code multiple times and everything as correct. You might find yourself asking, "What was the problem?"  I did not hit save. I initially hit save halfway through my code but did not save it again when I was finished. Lesson learned. Remember to always save whenever you make any changes or select auto save.
